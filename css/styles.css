@@ -2,4 +2,41 @@ body{
     font-family: 'Roboto';
     color: #Fb0098;
     text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    line-height: 26px;
+    background-color: #120032;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+div{
+    margin: 96px auto;
+    border: 2px solid #ccc;
+    width: 70%;
+}
+div h2{
+    background: #120032;
+    color: #fff;
+    line-height: 50px;
+    margin: 0;
+    font-size: 32px;
+    font-weight: bolder;
+}
+div p{
+    font-size: 18px;
+    color: #111;
+}
+div span{
+    margin: 16px 0;
 }
